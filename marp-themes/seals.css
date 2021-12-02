@@ -1,0 +1,57 @@
+/* @theme seals */
+
+@import 'default';
+
+section {
+  font-family: "Arial", "Hiragino Maru Gothic ProN";
+  font-size: 32px;
+  background-color: #F2F0EB;
+  border: #11468C 16px solid;
+  color: #022873;
+  padding: 24px;
+}
+
+section table,
+th,
+td {
+    border: 1px solid #11468C;
+}
+
+section table {
+  margin: auto;
+  border: 2px #11468C solid;
+}
+
+section thead th {
+  border: 1px #11468C solid;
+  border-bottom: 4px #11468C solid;;
+}
+
+section thead th:first-child {
+  border-right: 4px #11468C solid;
+}
+
+section tbody td {
+  border: 1px #11468C solid;
+}
+
+section tbody td:first-child {
+  border-right: 4px #11468C solid;
+}
+
+section.first  {
+  text-align: center;
+}
+
+section.first h1 {
+  font-size: 90px;
+}
+
+section.title {
+  font-size: 36px;
+  text-align: center;
+}
+
+section.title h1 {
+  font-size: 60px;
+}
